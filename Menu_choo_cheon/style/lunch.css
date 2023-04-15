@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #ee9ca7, #ffdde1);
+}
+.recommend h1
+{
+    position: relative;
+    transform: translateX(27%);
+}
+.recommend .rec_button
+{
+    margin: 20px;
+}
+.recommend .rec_button .rec
+{
+    width: 150px;
+    height: 70px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.recommend .rec_button .rec:hover
+{
+    background: white;
+    color: black;
+}
+@media screen and (max-width: 600px) {
+    .recommend .rec_button
+    {
+        margin: 10px;
+    }
+}
